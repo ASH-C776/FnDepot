@@ -72,7 +72,7 @@ https://github.com/ASH-C776/FnDepot
 2. 或在应用中心里对「存钱罐」执行一次「停止 → 启动」，让 Docker 重试拉取
 3. 已配置代理的用户，可在 Docker 的代理设置中填自己的代理地址
 
-镜像地址：`ghcr.io/ash-c776/piggy-bank:1.3.3`（可在 Docker 里手动 `docker pull` 预拉取）
+镜像地址：`ghcr.io/ash-c776/piggy-bank-app:1.3.4`（可在 Docker 里手动 `docker pull` 预拉取）
 
 **端口冲突怎么办？** 默认占用 3000，如与本机其他应用冲突，可在应用设置里修改端口映射。
 

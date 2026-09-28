@@ -35,15 +35,15 @@
       "is_docker": true,
       "service_port": "3000",
       "releases": {
-        "1.3.3": {
-          "changelog": "新增飞牛 fnOS 应用中心支持；新增成长记录多孩子曲线对比；修复安卓端窗口切换动画掉帧问题。",
-          "updated_at": "2026-09-18T12:57:37+08:00",
+        "1.3.4": {
+          "changelog": "接入飞牛统一网关，桌面图标可在 FN Connect 外网远程打开（此前只能在局域网用）；修复远程 HTTPS 下实时推送连不上的问题。",
+          "updated_at": "2026-09-28T16:03:17+08:00",
           "os_min_version": "1.2.0",
           "packages": {
             "x86": {
               "download_url": "./piggy-bank/piggy-bank.fpk",
-              "sha256": "202ec529dff9a920b73baaa2f8318fc5e863378f92e3b98a9fd92e1fde59d253",
-              "size": 225213
+              "sha256": "56a7d275c1924252fe3af8451bc9ea61c4f535b9f0c4964c6b1a7a8c05edb2ea",
+              "size": 226385
             }
           }
         }
