@@ -19,12 +19,9 @@
       ],
       "icon_url": "./piggy-bank/ICON.PNG",
       "preview_urls": [
-        "./piggy-bank/Preview/01-child-shop.jpg",
-        "./piggy-bank/Preview/02-child-home.jpg",
-        "./piggy-bank/Preview/03-preview.jpg",
-        "./piggy-bank/Preview/04-preview.jpg",
-        "./piggy-bank/Preview/05-preview.jpg",
-        "./piggy-bank/Preview/06-preview.jpg"
+        "./piggy-bank/Preview/01-tasks.jpg",
+        "./piggy-bank/Preview/02-shop.jpg",
+        "./piggy-bank/Preview/03-growth.jpg"
       ],
       "readme_url": "./piggy-bank/README.md",
       "bug_report_url": "https://github.com/ASH-C776/piggy-bank/issues",
@@ -35,15 +32,15 @@
       "is_docker": true,
       "service_port": "3000",
       "releases": {
-        "1.3.4": {
-          "changelog": "接入飞牛统一网关，桌面图标可在 FN Connect 外网远程打开（此前只能在局域网用）；修复远程 HTTPS 下实时推送连不上的问题。",
-          "updated_at": "2026-09-28T16:03:17+08:00",
+        "1.5.5": {
+          "changelog": "修复「检查更新」显示的版本与实际不符、且提示更新后下载页找不到对应版本的问题（更新判定改为以实时源为准；实际安装版本覆盖镜像构建版本）。修复桌面图标点击后无法打开、外网 FN Connect 访问失效的问题（入口类型为网关模式，这是飞牛唯一支持外网的组合）。「关于与检查更新」从设置里提到头像菜单（退出按钮前），版本号与更新角标一眼可见。数据备份与恢复：头像菜单进入，支持立即备份、每日自动备份（默认凌晨3点、保留近7份）、恢复需家长密码二次确认且恢复前自动留底可回退。",
+          "updated_at": "2026-10-20T12:52:47+08:00",
           "os_min_version": "1.2.0",
           "packages": {
             "x86": {
               "download_url": "./piggy-bank/piggy-bank.fpk",
-              "sha256": "56a7d275c1924252fe3af8451bc9ea61c4f535b9f0c4964c6b1a7a8c05edb2ea",
-              "size": 226385
+              "sha256": "f08f8c494fdd0ae09808312d2f0fa62595fe69e71b604fbc368a24a503c2fca2",
+              "size": 227274
             }
           }
         }
